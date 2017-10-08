@@ -1,11 +1,11 @@
-
+import VehicleComponents.Engine;
 
 public class PrivateCarFactoryMethod extends AbstractFactory {
 
-	private Vehicle vehicle;
+	private IVehicle vehicle;
 	private Engine engine;
 	
-	public Vehicle buildPrivateCarVehicle(String vehicle,String logo){
+	public IVehicle buildPrivateCarVehicle(String vehicle, String logo){
 		switch (vehicle){
 			case "private normal car": 
 				this.vehicle=new PrivateCar(engine,logo);
