@@ -1,3 +1,5 @@
+package VehicleComponents;
+
 public class Wheel implements IComponent {
 
     private String wheelName;

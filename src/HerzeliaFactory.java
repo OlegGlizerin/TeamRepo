@@ -1,10 +1,20 @@
+import java.util.Hashtable;
+
+
+
+/*
+use singeltone and object pool
+ */
+
 
 public class HerzeliaFactory {
 
 	private static HerzeliaFactory instance;
-	private PrivateCarFactoryMethod factoryMethod;
-	private Vehicle product;
-	
+	private VehicleFactoryMethod factoryMethod;
+	private IVehicle product;
+	private Hashtable<Integer,IVehicle> warehouse=new Hashtable<>();
+
+
 	private HerzeliaFactory(){
 	}
 	
@@ -14,16 +24,19 @@ public class HerzeliaFactory {
 		return instance;
 	}
 
-	enum VehiclesTypes {
-	    PRIVATE_CAR, MOTOR_BIKE,TRUCK
+	public IVehicle getProduct(IVehicle vehicle){
+		if(EHerzeliaTypes.contains(vehicle.getModel())){
+			if(warehouse.contains(vehicle))
+				return warehouse.get(vehicle.hashCode());
+			else{
+				warehouse.put(vehicle.hashCode(),vehicle);
+			}
+		}
+		else{
+			System.out.println("Herzelia cant make this type of car");
+			return null;
+		}
+		return vehicle;
 	}
-	
-	
 
-	
-	public Vehicle buildVehicle(String vehicleType){
-		factoryMethod=new PrivateCarFactoryMethod();
-		product=factoryMethod.buildPrivateCarVehicle(vehicleType, "BMW");
-		return product;
-	}
 }

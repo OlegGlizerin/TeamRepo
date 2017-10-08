@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public enum EType {
+    PRIVATE,MOTORBIKE,TRUCK,JEEP
+
 }

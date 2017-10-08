@@ -1,20 +1,29 @@
-import VehicleComponents.Engine;
 
-public class PrivateCarFactoryMethod extends AbstractFactory {
+public class VehicleFactoryMethod extends AbstractFactory {
 
 	private IVehicle vehicle;
-	private Engine engine;
+	private EModel model;
+	private EType type;
+
+	public VehicleFactoryMethod( EModel model, EType type){
+		this.model=model;
+		this.type=type;
+	}
 	
-	public IVehicle buildPrivateCarVehicle(String vehicle, String logo){
-		switch (vehicle){
-			case "private normal car": 
-				this.vehicle=new PrivateCar(engine,logo);
+	public IVehicle buildPrivateCarVehicle( EModel model, EType type){
+		switch (type){
+			case PRIVATE:
+				this.vehicle=new PrivateCar(model,type);
 				break;
-			case "private sport car":
-				this.vehicle=new PrivateCarSport(engine,logo);
+			case MOTORBIKE:
+				this.vehicle=new MotorBike(model,type);
 				break;
-			case "private hover car":
-				this.vehicle=new Truck(engine,logo);
+			case TRUCK:
+				this.vehicle=new Truck(model,type);
+				break;
+			case JEEP:
+				this.vehicle=new Jeep(model,type);
+				break;
 		}
 		return this.vehicle;
 	}

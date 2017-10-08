@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public abstract class VehicleDecorator implements  IVehicle {
 
-public class VehicleDecorator {
+    protected IVehicle vehicle;
+    protected EModel model;
+    protected EType type;
+
+
+    public VehicleDecorator (IVehicle vehicle){
+        this.vehicle=vehicle;
+    }
+
+    public void drive(){
+        System.out.println("this vehicle can drive");
+    }
+
 }

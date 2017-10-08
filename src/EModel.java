@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public enum EModel {
+    BMW,AUDI
 }

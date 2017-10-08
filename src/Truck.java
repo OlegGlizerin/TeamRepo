@@ -1,29 +1,53 @@
 
-public class Truck implements Vehicle{
+public class Truck implements ISport, INormal,AbstractFactory {
 
-	
-	private Engine engine;
-	private final int numOfWheels=8;
-	private String logoCompany;
-	
-	public Truck (Engine engine, String logo){
-		this.engine=engine;
-		this.logoCompany=logo;
-	}
-	
-	@Override
-	public String getLogo() {
-		return this.logoCompany;
+	private EModel model;
+	private EType type;
+
+	public Truck(EModel model, EType type){
+		this.model=model;
+		this.type=type;
 	}
 
+
 	@Override
-	public int getNumWheels() {
-		return numOfWheels;
+	public void normal() {
+		System.out.println("this is a normal truck");
 	}
 
 	@Override
-	public Engine getEngine() {
-		return engine;
+	public void sport() {
+		System.out.println("this is a sport truck");
 	}
 
+	public String toString(){
+		return "This is a truck";
+
+	}
+
+	@Override
+	public void ablities() {
+		normal();
+		sport();
+	}
+
+	@Override
+	public EModel getModel() {
+		return this.model;
+	}
+
+	@Override
+	public EType getType() {
+		return this.type;
+	}
+
+	@Override
+	public IVehicle clone() throws CloneNotSupportedException {
+		return this.clone();
+	}
+
+	@Override
+	public void buildVehicle() {
+		System.out.println("built Truck");
+	}
 }

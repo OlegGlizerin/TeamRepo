@@ -1,4 +1,4 @@
-package VehicleInterfaces;
+
 
 public interface IVehicle extends  Cloneable{
 

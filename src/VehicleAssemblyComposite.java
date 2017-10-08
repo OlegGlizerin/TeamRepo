@@ -2,12 +2,12 @@ import VehicleComponents.IComponent;
 
 import java.util.ArrayList;
 
-public class VehicleAssemblyFacade implements IComponent {
+public class VehicleAssemblyComposite implements IComponent {
 
     private ArrayList<IComponent> components;
     private String name;
 
-    public VehicleAssemblyFacade(String name){
+    public VehicleAssemblyComposite(String name){
         this.name=name;
         components=new ArrayList<>();
     }
