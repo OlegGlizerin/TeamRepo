@@ -8,18 +8,20 @@ Car : H,S,E
 Truck : H,F
 Motorcycle : S,H,F
 
-As defined there are two Factories Herzelia and Petah Tikva (model.Bridge)
-The client has control over which vehicles to order in which case an order is sent to VehicleCommand(model.Bridge) 
+As defined there are two Factories Herzelia and Petah Tikva (model.bridge)
+The client has control over which vehicles to order in which case an order is sent to VehicleCommand(model.bridge)
 and VehicleCommand sends the order to the appropriate Factory.
 
 The chain of commands is from Main->Menu(this is the user/client)->VehicleCommand->HerzeliaFactory/PetahTikvaFactory
 
-Every order is send first to the warehouse(model.ObjectPoolPatternAndSingleton) to see if the car is already in stock
+Every order is send first to the warehouse(model.objectPoolPatternAndSingleton) to see if the car is already in stock
 
-The Engine(model.BuilderPattern) class is created with the builder pattern
+The Engine(model.builderPattern) class is created with the builder pattern
 
-The MotorcycleWindsheild(model.Decorator) class is created with the decorater pattern
+The MotorcycleWindsheild(model.decorator) class is created with the decorater pattern
 
 Every Engine made is stored in a cache of Engines(model.Flywieght) so not to rebuild Engines.
 
 Proxy,Facade,Prototype,Adapter,Composite are all in seperate folders and are seperate from the vehicle factory exercise.
+
+Added new test flows, any pattern that doesn't have a specific test, is part of the main flow of the vehicle factory and is run by the main test.
