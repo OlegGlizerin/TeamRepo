@@ -1,9 +1,9 @@
 package factory_method;
 
-import vehicle_components.VehicleSubType;
+import vehicle_properties.VehicleCategory;
 
 //Abstraction
 public interface IVehicleCreator {
-    IVehicle CreateCar(VehicleSubType subType);
+    IVehicle CreateCar(VehicleCategory subType);
 
 }

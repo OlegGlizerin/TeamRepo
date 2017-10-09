@@ -1,15 +1,16 @@
 package factory_method;
 
 import vehicle_components.*;
+import vehicle_properties.VehicleCategory;
 
 //ProductThree
 public class PrivateCar implements IVehicle{
     private Wheel wheel;
     private Engine engine;
-    private VehicleSubType type;
+    private VehicleCategory type;
     private String symbol;
 
-    public PrivateCar(VehicleSubType subType)
+    public PrivateCar(VehicleCategory subType)
     {
         wheel = new PrivateCarWheel();
         engine = new PrivateCarEngine();

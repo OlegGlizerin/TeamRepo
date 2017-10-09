@@ -1,6 +1,6 @@
 package vehicle_centers;
 
-import vehicle_components.VehicleType;
+import vehicle_properties.VehicleType;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package factory_method;
 
-import vehicle_components.VehicleType;
+import vehicle_properties.VehicleType;
 
 import java.util.HashMap;
 

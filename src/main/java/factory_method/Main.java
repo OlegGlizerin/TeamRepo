@@ -1,6 +1,6 @@
 package factory_method;
 
-import vehicle_components.VehicleType;
+import vehicle_properties.VehicleType;
 
 public class Main {
     public static void main(String [] args)

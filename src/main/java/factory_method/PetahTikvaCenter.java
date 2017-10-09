@@ -1,7 +1,7 @@
 package factory_method;
 
-import vehicle_components.VehicleSubType;
-import vehicle_components.VehicleType;
+import vehicle_properties.VehicleCategory;
+import vehicle_properties.VehicleType;
 import java.util.HashMap;
 
 public class PetahTikvaCenter extends Location {
@@ -17,7 +17,7 @@ public class PetahTikvaCenter extends Location {
     public IVehicle createSportsCar(VehicleType type) {
         IVehicleCreator creator = supportedVehicles.get(type);
         if (creator != null) {
-            return creator.CreateCar(VehicleSubType.SPORTS);
+            return creator.CreateCar(VehicleCategory.SPORTS);
         } else {
             System.out.println("Cannot create vehicle.");
             return null;
@@ -27,7 +27,7 @@ public class PetahTikvaCenter extends Location {
     public IVehicle createSuvCar(VehicleType type) {
         IVehicleCreator creator = supportedVehicles.get(type);
         if (creator != null) {
-            return creator.CreateCar(VehicleSubType.SUV);
+            return creator.CreateCar(VehicleCategory.SUV);
         } else {
             System.out.println("Cannot create vehicle.");
             return null;
@@ -37,7 +37,7 @@ public class PetahTikvaCenter extends Location {
     public IVehicle createHoverCar(VehicleType type) {
         IVehicleCreator creator = supportedVehicles.get(type);
         if (creator != null) {
-            return creator.CreateCar(VehicleSubType.HOVER);
+            return creator.CreateCar(VehicleCategory.HOVER);
         } else {
             System.out.println("Cannot create vehicle.");
             return null;
@@ -47,7 +47,7 @@ public class PetahTikvaCenter extends Location {
     public IVehicle createNormalCar(VehicleType type) {
         IVehicleCreator creator = supportedVehicles.get(type);
         if (creator != null) {
-            return creator.CreateCar(VehicleSubType.NORMAL);
+            return creator.CreateCar(VehicleCategory.NORMAL);
         } else {
             System.out.println("Cannot create vehicle.");
             return null;

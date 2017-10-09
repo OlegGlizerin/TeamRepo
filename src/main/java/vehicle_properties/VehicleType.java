@@ -1,4 +1,4 @@
-package vehicle_components;
+package vehicle_properties;
 
 public enum VehicleType {
     PRIVATE_CAR,

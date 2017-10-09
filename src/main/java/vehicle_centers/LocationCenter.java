@@ -1,5 +1,5 @@
 package vehicle_centers;
-import vehicle_components.VehicleType;
+import vehicle_properties.VehicleType;
 import java.util.List;
 
 public interface LocationCenter {
