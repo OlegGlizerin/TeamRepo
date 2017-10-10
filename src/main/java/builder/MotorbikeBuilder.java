@@ -6,11 +6,13 @@ import vehicle_properties.VehicleType;
 import java.util.ArrayList;
 
 //ConcreteBuilder
-public class PrivateCarBuilder extends VehicleBuilder {
-    public PrivateCarBuilder() {
+public class MotorbikeBuilder extends VehicleBuilder {
+
+    public MotorbikeBuilder() {
         categories = new ArrayList<VehicleCategory>();
         categories.add(VehicleCategory.SPORTS);
         categories.add(VehicleCategory.NORMAL);
+        categories.add(VehicleCategory.SUV);
         categories.add(VehicleCategory.HOVER);
         vehicle = new Vehicle();
     }
@@ -24,22 +26,22 @@ public class PrivateCarBuilder extends VehicleBuilder {
     }
 
     public void buildType() {
-        vehicle.setType(VehicleType.PRIVATE_CAR);
+        vehicle.setType(VehicleType.MOTORBIKE);
     }
 
     public void buildWheels() {
-        vehicle.setWheels(4);
+        vehicle.setWheels(2);
     }
 
     public void buildEngine() {
-        vehicle.setEngine("SX");
+        vehicle.setEngine("EX");
     }
 
     public void buildColor() {
-        vehicle.setColor(Color.RED);
+        vehicle.setColor(Color.GREEN);
     }
 
     public void buildDoors() {
-        vehicle.setDoors(3);
+        vehicle.setDoors(0);
     }
-}
+  }

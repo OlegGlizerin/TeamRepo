@@ -1,26 +1,25 @@
 package abstract_factory;
 
-import common.VehicleType;
+import vehicle_properties.VehicleType;
 
+//AbstractPlatform
 public abstract class AbstractFactory {
-    public enum Component {
-        Engine,
-        Wheel
-    }
-
-    public static AbstractFactory getFactory(Component Component) {
+    public static AbstractFactory getFactory(VehicleType type) {
         AbstractFactory factory = null;
-        switch (Component) {
-            case Engine:
-                factory = new EngineFactory();
+        switch (type) {
+            case MOTORBIKE:
+                factory = new Motorbike();
                 break;
-            case Wheel:
-                factory = new WheelFactory();
+            case TRUCK:
+                factory = new Truck();
+                break;
+            default:
+                System.out.println("Not supported type.");
                 break;
         }
         return factory;
     }
 
-    public abstract Engine getEngine(VehicleType engine);
-    public abstract Wheel getWheel(VehicleType wheel);
+    protected abstract IWheel createWheel();
+    protected abstract IEngine createEngine();
 }

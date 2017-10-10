@@ -1,8 +1,14 @@
 package abstract_factory;
 
-public class MotorbikeWheel extends Wheel{
+//ProductTwo-PlatformOne
+public class MotorbikeWheel implements IWheel {
+    private int wheels;
 
-    void initSize() {
-        size = 8;
+    public MotorbikeWheel() {
+        wheels = 2;
+    }
+
+    public int getWheels() {
+        return wheels;
     }
 }

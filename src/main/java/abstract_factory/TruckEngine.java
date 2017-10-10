@@ -1,9 +1,14 @@
 package abstract_factory;
 
-public class TruckEngine extends Engine {
+//ProductOne-PlatformOne
+public class TruckEngine implements IEngine {
+    private int volume;
 
-
-    void initVolume() {
+    public TruckEngine() {
         volume = 2400;
+    }
+
+    public int getVolume() {
+        return volume;
     }
 }

@@ -1,8 +1,14 @@
 package abstract_factory;
 
-public class MotorbikeEngine extends Engine {
+//ProductOne-PlatformOne
+public class MotorbikeEngine implements IEngine {
+    private int volume;
 
-    void initVolume() {
-        volume = 1000;
+    public MotorbikeEngine() {
+        volume = 2000;
+    }
+
+    public int getVolume() {
+        return volume;
     }
 }
