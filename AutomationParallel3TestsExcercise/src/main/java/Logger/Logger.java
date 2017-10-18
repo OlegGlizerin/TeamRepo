@@ -18,7 +18,7 @@ public class Logger implements ILogger {
     private static ReentrantLock lockInstance = new ReentrantLock();
     private ReadWriteLock lockWrite = new ReentrantReadWriteLock();
 
-    private final String LOGPATH = "C:\\Users\\Oleg Glizrin\\Desktop\\parallelLog.txt";
+    private final String LOGPATH = "parallelLog.txt";
     private static Logger logger = null;
     private BufferedWriter bw = null;
 

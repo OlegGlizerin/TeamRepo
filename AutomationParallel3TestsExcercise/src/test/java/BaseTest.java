@@ -21,8 +21,8 @@ public abstract class BaseTest {
 
         WebDriver driver = WebDriverFactory.getDriver(WebDriverFactory.DriverType.CHROME);
         threadDriver.set(driver);
-        threadDriver.get().get("https://ci-platform.datorama.com/login");
-        long id = Thread.currentThread().getId();
+//        threadDriver.get().get("https://ci-platform.datorama.com/login");
+//        long id = Thread.currentThread().getId();
         //System.out.println("Before test-method. Thread id is: " + id);
     }
 
