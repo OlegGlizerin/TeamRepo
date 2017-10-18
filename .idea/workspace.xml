@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6086dec5-6631-4827-96d1-d47cacbd1f48" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BridgeExportVehicles/ExportVehicles/IExporter.java" afterPath="$PROJECT_DIR$/src/main/java/bridgeExportVehicles/ExportVehicles/IExporter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BridgeExportVehicles/ExportVehicles/USAExporter.java" afterPath="$PROJECT_DIR$/src/main/java/bridgeExportVehicles/ExportVehicles/USAExporter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/AbstractFactory/AbstractToyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/AbstractToyFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/AbstractFactory/ToyFactoryBox/BagFactory/BagToyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/ToyFactoryBox/BagFactory/BagToyFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/AbstractFactory/ToyFactoryBox/FactoryToyBox.java" afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/ToyFactoryBox/FactoryToyBox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/Builder/BuilderToyBox.java" afterPath="$PROJECT_DIR$/src/main/java/builder/BuilderToyBox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/ObjectPool/PooledToyObject.java" afterPath="$PROJECT_DIR$/src/main/java/ObjectPool/PooledToyObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/ObjectPool/ToyPool.java" afterPath="$PROJECT_DIR$/src/main/java/ObjectPool/ToyPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/CreateVehicleToys/PrototypeVehicle/PrototypeToysVehicleFactory.java" afterPath="$PROJECT_DIR$/src/main/java/prototype/PrototypeToysVehicleFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/ToysWarehouse/AbstractWarehouse.java" afterPath="$PROJECT_DIR$/src/main/java/toysProductsAndWarehouse/ToysWarehouse/AbstractWarehouse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/BuilderFactoryObjectPoolPrototypeToysCreation/ToysWarehouse/Herzlia/HerzliaWarehouse.java" afterPath="$PROJECT_DIR$/src/main/java/toysProductsAndWarehouse/ToysWarehouse/Herzlia/HerzliaWarehouse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestPatterns.class" afterPath="$PROJECT_DIR$/target/test-classes/TestPatterns.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ProxyVehiclesCityEnterprises/Proxys/HerzliaEnterpriseProxy.java" afterPath="$PROJECT_DIR$/src/main/java/ProxyVehiclesCityEnterprises/Proxys/HerzliaEnterpriseProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ProxyVehiclesCityEnterprises/Proxys/PetahTikvaEnterpriseProxy.java" afterPath="$PROJECT_DIR$/src/main/java/ProxyVehiclesCityEnterprises/Proxys/PetahTikvaEnterpriseProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestPatterns.java" afterPath="$PROJECT_DIR$/src/test/java/TestPatterns.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutomationParallel3TestsExcercise/src/main/java/browserFactoryMethod/WebDriverFactory.java" afterPath="$PROJECT_DIR$/AutomationParallel3TestsExcercise/src/main/java/browserFactoryMethod/WebDriverFactory.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,123 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HerzliaEnterpriseProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/HerzliaEnterpriseProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-              <folding>
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1931#1932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HerzliaEnterprise.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/HerzliaEnterprise.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="USAExporter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridgeExportVehicles/exportVehicles/USAExporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetahTikvaEnterpriseProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/PetahTikvaEnterpriseProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFlyWeight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyWeightVehicles/MainFlyWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EHerzliaVehicleTypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/enumsByCity/EHerzliaVehicleTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VehicleMakerWithDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/withDecoratorAndDBUsage/VehicleMakerWithDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-              <folding>
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1987#1988#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -288,9 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,6 +216,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,6 +227,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AutomationParallel3TestsExcercise" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -631,6 +500,7 @@
       <workItem from="1506495578452" duration="20391000" />
       <workItem from="1506579400459" duration="8609000" />
       <workItem from="1506838677440" duration="41935000" />
+      <workItem from="1508317563308" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Code refactoring, removed builder package (not used), naming changed for Car and some packages.">
       <created>1506242481635</created>
@@ -696,28 +566,25 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120479000" />
+    <option name="totallyTimeSpent" value="120492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="997" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.478125" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27485928" sideWeight="0.51979166" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2740999" sideWeight="0.51979166" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.49710983" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27485928" sideWeight="0.48020834" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27485928" sideWeight="0.48020834" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.49010417" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -728,7 +595,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.478125" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833022" sideWeight="0.49010417" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -883,498 +752,57 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/TruckFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/IPetahTikvaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/JeepFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/PrivateFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="73" lean-forward="false" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/TruckFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/BikeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#298#299#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/IHerzliaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/PetahTikvaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/BikeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/enumsVehicle/EVehicleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/enumsVehicle/EVehicleType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/IMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeToysVehicleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/PooledVehicleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#281#282#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/toys/warehouse/herzlia/HerzliaWarehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/HerzliaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#424#425#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/VehiclePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#735#762#0" expanded="false" />
-            <element signature="e#841#868#0" expanded="false" />
-            <element signature="e#4017#4018#0" expanded="false" />
-            <element signature="e#4099#4100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/flyWeightVehicles/MainFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/IEnterprise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/PetahTikvaEnterprise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPatterns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/IVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Jeeps/Jeep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="73" column="71" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Privates/Private.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="66" column="71" lean-forward="false" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Trucks/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Bikes/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/compositeVehicleStructure/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/mySQLToMongoDBAdapter/MySQLToMongoAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridgeExportVehicles/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/VehicleMakerDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/IDBMongo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/dBManagers/DBMySQLManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/dBManagers/DBMongoManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/withoutDecorator/VehicleMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/withDecoratorAndDBUsage/VehicleMakerWithDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyWeightVehicles/MainFlyWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/enumsByCity/EHerzliaVehicleTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/PetahTikvaEnterpriseProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridgeExportVehicles/exportVehicles/USAExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/HerzliaEnterprise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/HerzliaEnterpriseProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1931#1932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/TruckFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/IPetahTikvaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/JeepFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/PrivateFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/TruckFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/BikeFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/factoriesFamilies/IHerzliaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/PetahTikvaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/AbstractFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factoryMethod/BikeFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/enumsVehicle/EVehicleModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/enumsVehicle/EVehicleType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/IMaker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeToysVehicleFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/Vehicle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/PooledVehicleObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/toys/warehouse/herzlia/HerzliaWarehouse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/HerzliaFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/VehiclePool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/flyWeightVehicles/MainFacade.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/IEnterprise.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/PetahTikvaEnterprise.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPatterns.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/IVehicle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Jeeps/Jeep.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Privates/Private.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Trucks/Truck.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vehicle/Models/Bikes/Bike.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/objectPool/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/compositeVehicleStructure/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/mySQLToMongoDBAdapter/MySQLToMongoAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridgeExportVehicles/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/VehicleMakerDecorator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/IDBMongo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/dBManagers/DBMySQLManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapterDBInteraction/dBManagers/DBMongoManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/withoutDecorator/VehicleMaker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/withDecoratorAndDBUsage/VehicleMakerWithDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/decorator/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyWeightVehicles/MainFlyWeight.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/enumsByCity/EHerzliaVehicleTypes.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/PetahTikvaEnterpriseProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridgeExportVehicles/exportVehicles/USAExporter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/subjects/HerzliaEnterprise.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/proxys/HerzliaEnterpriseProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/abstractFactory/Main.java" />
   </component>
   <component name="masterDetails">
     <states>
