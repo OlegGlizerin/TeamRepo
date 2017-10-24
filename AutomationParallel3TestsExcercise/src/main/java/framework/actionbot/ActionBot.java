@@ -14,7 +14,6 @@ public class ActionBot extends AbstractBot {
     public void click(By locator) {
         try {
             findControl(locator).click();
-            logger.info("click the element: " + locator.toString());
         }
         catch(WebDriverException e) {
 
@@ -47,7 +46,6 @@ public class ActionBot extends AbstractBot {
         WebElement element = findControl(locator);
         try {
             element.sendKeys(text);
-            logger.info("write data : " + text + " . To Element: " + locator.toString());
         }
         catch (StaleElementReferenceException e ) {
 
@@ -62,7 +60,6 @@ public class ActionBot extends AbstractBot {
 
                     } catch (StaleElementReferenceException e2) {
                         e2.toString();
-                        logger.warning("Trying to recover from a stale element :" + e2.getMessage());
                         count = count + 1;
                     }
 

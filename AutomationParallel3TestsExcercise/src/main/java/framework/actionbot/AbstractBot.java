@@ -1,6 +1,5 @@
 package framework.actionbot;
 
-import Logger.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -13,7 +12,6 @@ public abstract class AbstractBot {
     protected WebDriver driver;
     protected WebElement baseWebElement;
     protected WebDriverWait webDriverWait;
-    protected Logger logger = Logger.getInstance();
 
 
 
@@ -37,7 +35,6 @@ public abstract class AbstractBot {
 
 
     private void waitForElementFluent(By locator) {
-        logger.warning("Fluent wait for element " + locator.toString() + " for 30 seconds.");
         Wait<WebDriver> stubbornWait = new FluentWait<WebDriver>(driver)
                 .withTimeout(30, SECONDS)
                 .pollingEvery(5, SECONDS)
@@ -48,7 +45,6 @@ public abstract class AbstractBot {
 
 
     private void waitForElementClickable(By locator) {
-        logger.warning("Wait for element to be clickable: " + locator.toString());
         try {
             baseWebElement = webDriverWait.until(ExpectedConditions.elementToBeClickable(locator));
             waitForControlToStopMoving();

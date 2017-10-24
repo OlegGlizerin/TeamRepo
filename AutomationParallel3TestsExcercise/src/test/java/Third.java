@@ -1,4 +1,4 @@
-import Logger.Logger;
+
 import framework.ui.home.HomeTopBarNavigator;
 import framework.ui.login.LoginPage;
 import org.testng.annotations.Test;
@@ -6,18 +6,11 @@ import org.testng.annotations.Test;
 public class Third extends BaseTest {
 
     @Test
-    public void flow3() {
+    public void flow3() throws InterruptedException {
 
-        logger.info("Oleg test flow3 STARTED.");
-//        LoginPage loginPage = new LoginPage(threadDriver.get());
-//        loginPage.fillUserName("oleg.glizrin@datorama.com")
-//                .fillPassword("cm8a7vvp ")
-//                .clickSignIn()
-//                .fillEmail("oleg.glizrin@datorama.com")
-//                .fillPass("Volume99")
-//                .logIn();
-//        HomeTopBarNavigator homeTopBarNavigator = new HomeTopBarNavigator(threadDriver.get());
-//        homeTopBarNavigator.navigateConnectAndMix();
-        logger.info("Oleg test flow3 FINISHED.");
+        threadLocalLogger.get().log("test flow3 STARTED." + "Thread ID:" + Thread.currentThread().getId());
+        getDriver().get("http://www.google.com");
+        Thread.sleep(5000);
+        threadLocalLogger.get().log("test flow3 FINISHED." + "Thread ID:" + Thread.currentThread().getId());
     }
 }

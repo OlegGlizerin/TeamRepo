@@ -14,9 +14,21 @@
             <name>localRepo</name>
             <url>file:${project.basedir}/libs</url>
         </repository>
+
+        <repository>
+            <id>topq</id>
+            <url>http://maven.top-q.co.il/content/groups/public</url>
+        </repository>
+
     </repositories>
 
     <dependencies>
+        <dependency>
+            <groupId>il.co.topq.difido</groupId>
+            <artifactId>difido-testng</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>

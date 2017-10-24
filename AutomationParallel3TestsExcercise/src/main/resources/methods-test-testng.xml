@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Critical" parallel="tests" thread-count="3">
+<suite name="Critical" parallel="tests" thread-count="6">
     <test name="T_01">
         <classes>
             <class name="First" ></class>
@@ -15,6 +15,24 @@
     <test name="T_03">
         <classes>
             <class name="Third" ></class>
+        </classes>
+    </test>
+
+    <test name="T_04">
+        <classes>
+            <class name="Fourth" ></class>
+        </classes>
+    </test>
+
+    <test name="T_05">
+        <classes>
+            <class name="Fifth" ></class>
+        </classes>
+    </test>
+
+    <test name="T_06">
+        <classes>
+            <class name="Sixth" ></class>
         </classes>
     </test>
 </suite>
