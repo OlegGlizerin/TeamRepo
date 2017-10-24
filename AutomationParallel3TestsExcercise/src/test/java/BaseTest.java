@@ -9,13 +9,15 @@ import org.testng.annotations.*;
 public abstract class BaseTest {
 
     protected ThreadLocal<WebDriver> threadDriver = new ThreadLocal<WebDriver>();
-    protected ReportDispatcher report = ReportManager.getInstance();
+    protected ReportDispatcher report = null;
+
+
 
 
 
     @BeforeClass
     public void testInit(){
-
+        report = ReportManager.getInstance();
         report.log("Test init. Thread ID: " + Thread.currentThread().getId());
         WebDriver driver = WebDriverFactory.getDriver(WebDriverFactory.DriverType.CHROME);
         threadDriver.set(driver);
