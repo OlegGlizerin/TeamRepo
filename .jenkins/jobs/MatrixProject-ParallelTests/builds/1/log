@@ -1,0 +1,31 @@
+Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EPva0O8U8cMmchepU37C/76sIwqX644G//d/BaMK+soAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace C:\Jenkins\workspace\MatrixProject
+Cloning the remote Git repository
+Cloning repository https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe init C:\Jenkins\workspace\MatrixProject # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/oleg^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/oleg^{commit}" # timeout=10
+Checking out Revision fb6100a51c82ef5b477b7389c077b0f0fc486f22 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fb6100a51c82ef5b477b7389c077b0f0fc486f22
+Commit message: "test without datorama"
+First time build. Skipping changelog.
+Triggering [8mha:////4JHIMpN8zvbTbKiD2SvJg7w1QJhYof5X41+uC/WbF+LVAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObZg0kgfABPOm1DVAAAA[0mMatrixProject » label2
+Triggering [8mha:////4HL/0uc2eeazTdmcxi33kaIeb2CQvFW3dE63JqHzOIFgAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqYb6AAfbY1zVAAAA[0mMatrixProject » slave1
+Triggering [8mha:////4HaXXrYjk/3yBCfTJQCqn8bBmdfc/s4zoqd71MLEiEb9AAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObZg0lAfANCdtnvVAAAA[0mMatrixProject » label1
+Triggering [8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2
+[8mha:////4JHIMpN8zvbTbKiD2SvJg7w1QJhYof5X41+uC/WbF+LVAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObZg0kgfABPOm1DVAAAA[0mMatrixProject » label2 completed with result SUCCESS
+[8mha:////4HL/0uc2eeazTdmcxi33kaIeb2CQvFW3dE63JqHzOIFgAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqYb6AAfbY1zVAAAA[0mMatrixProject » slave1 completed with result SUCCESS
+[8mha:////4HaXXrYjk/3yBCfTJQCqn8bBmdfc/s4zoqd71MLEiEb9AAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObZg0lAfANCdtnvVAAAA[0mMatrixProject » label1 completed with result SUCCESS
+[8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2 completed with result SUCCESS
+All downstream projects complete!
+Notifying upstream projects of job completion
+Finished: SUCCESS

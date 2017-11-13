@@ -1,0 +1,93 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4AJxsMHDHfqA58n1jnbyFAdtDmPfgmAAgwOM6YQHY6rGAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9U1MA97wQQsoAAAA=[0m55
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EPva0O8U8cMmchepU37C/76sIwqX644G//d/BaMK+soAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace C:\Jenkins\.jenkins\workspace\label\slave1
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7
+Commit message: "adding difido report and reorganize the classes"
+ > git.exe rev-list 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 # timeout=10
+[slave1] $ cmd.exe /C "c:\Python27\python.exe C:\Users\User\AppData\Local\Temp\shiningpanda3137396389580894697.py && exit %%ERRORLEVEL%%"
+[slave1] $ cmd /c call C:\Users\User\AppData\Local\Temp\jenkins3756906070153100066.bat
+
+C:\Jenkins\.jenkins\workspace\label\slave1>cd AutomationParallel3TestsExcercise 
+
+C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise>mvn clean test 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Automation-Parallel.com 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Automation-Parallel.com ---
+[INFO] Deleting C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 15 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ Automation-Parallel.com ---
+[INFO] Surefire report directory: C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+10:45:07: Test init. Thread ID: 11
+10:45:07: Test init. Thread ID: 12
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 22960
+Only local connections are allowed.
+Oct 24, 2017 10:45:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+10:45:32: ------------------------------------------------------------------------
+10:45:32: [TEST START]: flow1
+10:45:32: ------------------------------------------------------------------------
+10:45:32: test flow1 STARTED.Thread ID:11
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 17032
+Only local connections are allowed.
+Oct 24, 2017 10:45:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+10:45:39: test flow2 STARTED.Thread ID:12
+10:45:46: test flow1 FINISHED.Thread ID:11
+10:45:46: ------------------------------------------------------------------------
+10:45:46: [TEST END]: flow1
+10:45:46: duration: 15 seconds
+10:45:46: status: success
+10:45:46: ------------------------------------------------------------------------
+10:45:51: test flow2 FINISHED.Thread ID:12
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.826 sec - in TestSuite
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:00 min
+[INFO] Finished at: 2017-10-24T10:45:53+03:00
+[INFO] Final Memory: 20M/209M
+[INFO] ------------------------------------------------------------------------
+Notifying upstream projects of job completion
+Finished: SUCCESS

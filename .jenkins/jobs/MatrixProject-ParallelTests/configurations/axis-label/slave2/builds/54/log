@@ -1,0 +1,120 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4B9jSFgvLMQbUC+OJqjPSdR+4eSUv3I3MKshC7rL0pIaAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9UxMAYYwXNcoAAAA=[0m54
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4HoEpZdikjvqR9+5tuPMTRxW5qn7y/sTx7ped+3YssuvAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (label2) in workspace C:\Jenkins\.jenkins\workspace\label\slave2
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7
+Commit message: "adding difido report and reorganize the classes"
+ > git.exe rev-list 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 # timeout=10
+[slave2] $ cmd.exe /C "c:\Python27\python.exe C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda608697636207050870.py && exit %%ERRORLEVEL%%"
+[slave2] $ cmd /c call C:\Users\JACKSP~1\AppData\Local\Temp\jenkins4859359664772992366.bat
+
+C:\Jenkins\.jenkins\workspace\label\slave2>cd AutomationParallel3TestsExcercise 
+
+C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Automation-Parallel.com 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: file:C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise/libs/il/co/topq/difido/difido-testng/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/il/co/topq/difido/difido-testng/maven-metadata.xml
+Downloading: http://maven.top-q.co.il/content/groups/public/il/co/topq/difido/difido-testng/maven-metadata.xml
+Downloaded: http://maven.top-q.co.il/content/groups/public/il/co/topq/difido/difido-testng/maven-metadata.xml (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Automation-Parallel.com ---
+[INFO] Deleting C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 15 source files to C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ Automation-Parallel.com ---
+[INFO] Surefire report directory: C:\Jenkins\.jenkins\workspace\label\slave2\AutomationParallel3TestsExcercise\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.159 s
+[INFO] Finished at: 2017-10-24T10:41:55+03:00
+[INFO] Final Memory: 24M/405M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project Automation-Parallel.com: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test failed: There was an error in the forked process
+[ERROR] org.testng.TestNGException: java.lang.NumberFormatException: For input string: "2.0"
+[ERROR] 	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:324)
+[ERROR] 	at org.testng.TestNG.run(TestNG.java:1101)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+[ERROR] Caused by: java.lang.NumberFormatException: For input string: "2.0"
+[ERROR] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[ERROR] 	at java.lang.Integer.parseInt(Integer.java:580)
+[ERROR] 	at java.lang.Integer.parseInt(Integer.java:615)
+[ERROR] 	at org.testng.xml.TestNGContentHandler.xmlSuite(TestNGContentHandler.java:191)
+[ERROR] 	at org.testng.xml.TestNGContentHandler.startElement(TestNGContentHandler.java:545)
+[ERROR] 	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+[ERROR] 	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+[ERROR] 	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+[ERROR] 	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+[ERROR] 	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+[ERROR] 	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+[ERROR] 	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+[ERROR] 	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+[ERROR] 	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+[ERROR] 	at org.testng.xml.XMLParser.parse(XMLParser.java:39)
+[ERROR] 	at org.testng.xml.SuiteXmlParser.parse(SuiteXmlParser.java:16)
+[ERROR] 	at org.testng.xml.SuiteXmlParser.parse(SuiteXmlParser.java:9)
+[ERROR] 	at org.testng.xml.Parser.parse(Parser.java:170)
+[ERROR] 	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:304)
+[ERROR] 	... 7 more
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Build step 'Execute Windows batch command' marked build as failure
+Notifying upstream projects of job completion
+Finished: FAILURE

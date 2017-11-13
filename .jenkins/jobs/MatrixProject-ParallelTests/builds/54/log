@@ -1,0 +1,24 @@
+Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EPva0O8U8cMmchepU37C/76sIwqX644G//d/BaMK+soAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace C:\Jenkins\.jenkins\workspace
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/oleg^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/oleg^{commit}" # timeout=10
+Checking out Revision 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7
+Commit message: "adding difido report and reorganize the classes"
+ > git.exe rev-list 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 # timeout=10
+Triggering [8mha:////4HL/0uc2eeazTdmcxi33kaIeb2CQvFW3dE63JqHzOIFgAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqYb6AAfbY1zVAAAA[0mMatrixProject » slave1
+Triggering [8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2
+Triggering [8mha:////4En5bXhhGkO8dmvEcvyOVUj+TH3PKpOZXlWb0hb4sne5AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqcb6AIW5VW7VAAAA[0mMatrixProject » slave3
+[8mha:////4HL/0uc2eeazTdmcxi33kaIeb2CQvFW3dE63JqHzOIFgAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqYb6AAfbY1zVAAAA[0mMatrixProject » slave1 completed with result FAILURE
+[8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2 completed with result FAILURE
+[8mha:////4En5bXhhGkO8dmvEcvyOVUj+TH3PKpOZXlWb0hb4sne5AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqcb6AIW5VW7VAAAA[0mMatrixProject » slave3 completed with result FAILURE
+All downstream projects complete!
+Notifying upstream projects of job completion
+Finished: FAILURE

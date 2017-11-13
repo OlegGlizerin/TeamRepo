@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jglick
+Build-Jdk: 1.8.0_92
+Extension-Name: parallel-test-executor
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: parallel-test-executor
+Implementation-Version: 1.9
+Group-Id: org.jenkins-ci.plugins
+Short-Name: parallel-test-executor
+Long-Name: Parallel Test Executor Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Parallel+Test+Executor
+ +Plugin
+Plugin-Version: 1.9
+Hudson-Version: 1.642.3
+Jenkins-Version: 1.642.3
+Plugin-Dependencies: junit:1.15,workflow-step-api:2.3,parameterized-tr
+ igger:2.18,script-security:1.21
+Plugin-Developers: 
+

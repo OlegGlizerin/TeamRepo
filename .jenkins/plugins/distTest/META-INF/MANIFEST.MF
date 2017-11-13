@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mnovak
+Build-Jdk: 1.6.0_21
+Extension-Name: distTest
+Implementation-Title: distTest
+Implementation-Version: 1.0
+Short-Name: distTest
+Long-Name: Hudson Distributed Testing Plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/distTest+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.350
+Plugin-Developers: Miroslav Novak:mnovak:novak.miroslav95@gmail.com
+

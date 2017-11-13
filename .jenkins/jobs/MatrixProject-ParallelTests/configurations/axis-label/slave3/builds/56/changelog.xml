@@ -1,0 +1,18 @@
+commit 9d675b37320e6eacc687b10556275eb434075e68
+tree 04afe58fa499397af7b325653692c568596b2eda
+parent 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7
+author JackSparrow <olegglizerin@gmail.com> 2017-10-24 10:59:57 +0300
+committer JackSparrow <olegglizerin@gmail.com> 2017-10-24 10:59:57 +0300
+
+    fixed to difido to be shared variable to all tests
+
+
+
+:100644 100644 27d6ed0a3dbd3d4a4e3b222b5d398222943acc9d 4d11a382aae843166c65dea9528c31b0fb468cdf M	AutomationParallel3TestsExcercise/.idea/workspace.xml
+:100644 100644 0a7422d258f38364f28f16cf4934b5b50f6c1202 83913d4779a0b6ac2dc2fd301e8c4df5313fcea1 M	AutomationParallel3TestsExcercise/src/test/java/BaseTest.java
+:100644 100644 d2d0bb7c558427b2b6c59c7fb8f1d3c387a9f156 e3fcefdcb1a0da768dc4eb0eb36c30651756aa31 M	AutomationParallel3TestsExcercise/src/test/java/Fifth.java
+:100644 100644 478033e7254e496c26c339658a4a15651685323d 7d091e8549b6893f481532bbf1250fe6ab79e78c M	AutomationParallel3TestsExcercise/src/test/java/First.java
+:100644 100644 bc59ef40347c2bb3f42254d05f67fd7378e0ec22 e0d062e9576074b54ff463ad58589526ee7f8aaa M	AutomationParallel3TestsExcercise/src/test/java/Fourth.java
+:100644 100644 f92a90618d2bcc040005d9f2a861260d877b03e2 d2a7085460c40f1a8852cf13149f559e99c6daea M	AutomationParallel3TestsExcercise/src/test/java/Second.java
+:100644 100644 df5408d316ee33b3b3d3666f77059c302add315d 55adaba7588f506ab951ea75a8977c5e39489bba M	AutomationParallel3TestsExcercise/src/test/java/Sixth.java
+:100644 100644 92074b74305e900450789cb915df0fa9bedede45 93a4b547b959922bfe4c1b194241d815d92d1856 M	AutomationParallel3TestsExcercise/src/test/java/Third.java

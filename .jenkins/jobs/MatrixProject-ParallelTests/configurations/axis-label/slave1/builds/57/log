@@ -1,0 +1,258 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4E/XH2qitUv/gLgnmW6QL+d+MgqUwWxpKRcmUdlr5FNKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9U3MA290erMoAAAA=[0m57
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EPva0O8U8cMmchepU37C/76sIwqX644G//d/BaMK+soAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace C:\Jenkins\.jenkins\workspace\label\slave1
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 9931a164ba39a58496cd6c0a60ccea46bc64ce1d (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 9931a164ba39a58496cd6c0a60ccea46bc64ce1d
+Commit message: "report init added to before class."
+ > git.exe rev-list 9d675b37320e6eacc687b10556275eb434075e68 # timeout=10
+[slave1] $ cmd.exe /C "c:\Python27\python.exe C:\Users\User\AppData\Local\Temp\shiningpanda772273775793552854.py && exit %%ERRORLEVEL%%"
+[slave1] $ cmd /c call C:\Users\User\AppData\Local\Temp\jenkins5650677385275267930.bat
+
+C:\Jenkins\.jenkins\workspace\label\slave1>cd AutomationParallel3TestsExcercise 
+
+C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise>mvn clean test 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Automation-Parallel.com 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Automation-Parallel.com ---
+[INFO] Deleting C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 15 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ Automation-Parallel.com ---
+[INFO] Surefire report directory: C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Oct 24, 2017 11:11:52 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:11:52 AM il.co.topq.difido.reporters.RemoteDifidoReporter onStart
+WARNING: Failed to init il.co.topq.difido.reporters.RemoteDifidoReporterconnection with host '172.28.3.64:8080' due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832712197,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/34/machines/"}
+11:11:52: Test init. Thread ID: 12
+11:11:52: Test init. Thread ID: 11
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 6138
+Only local connections are allowed.
+Oct 24, 2017 11:11:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.lang.NullPointerException
+	at il.co.topq.difido.model.test.TestDetails.addReportElement(TestDetails.java:55)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:412)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.flushBufferedElements(AbstractDifidoReporter.java:222)
+	at il.co.topq.difido.reporters.LocalDifidoReporter.flushBufferedElements(LocalDifidoReporter.java:119)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.onTestStart(AbstractDifidoReporter.java:204)
+	at il.co.topq.difido.ReportManager.onTestStart(ReportManager.java:54)
+	at il.co.topq.difido.ReportManagerHook.onTestStart(ReportManagerHook.java:24)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1739)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:640)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.onTestFailure(AbstractDifidoReporter.java:286)
+	at il.co.topq.difido.ReportManager.onTestFailure(ReportManager.java:222)
+	at il.co.topq.difido.ReportManagerHook.onTestFailure(ReportManagerHook.java:36)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1731)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 14804
+Only local connections are allowed.
+Oct 24, 2017 11:12:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.lang.NullPointerException
+	at il.co.topq.difido.model.test.TestDetails.addReportElement(TestDetails.java:55)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:412)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.flushBufferedElements(AbstractDifidoReporter.java:222)
+	at il.co.topq.difido.reporters.LocalDifidoReporter.flushBufferedElements(LocalDifidoReporter.java:119)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.onTestStart(AbstractDifidoReporter.java:204)
+	at il.co.topq.difido.ReportManager.onTestStart(ReportManager.java:54)
+	at il.co.topq.difido.ReportManagerHook.onTestStart(ReportManagerHook.java:24)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1739)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:640)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+11:12:05: test flow2 STARTED.Thread ID:12
+11:12:13: test flow2 FINISHED.Thread ID:12
+java.lang.NullPointerException
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.onTestSuccess(AbstractDifidoReporter.java:280)
+	at il.co.topq.difido.ReportManager.onTestSuccess(ReportManager.java:215)
+	at il.co.topq.difido.ReportManagerHook.onTestSuccess(ReportManagerHook.java:30)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1735)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 28.303 sec <<< FAILURE! - in TestSuite
+flow1(First)  Time elapsed: 0.039 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:412)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:432)
+	at il.co.topq.difido.ReportManager.log(ReportManager.java:74)
+	at il.co.topq.difido.ReportManager.log(ReportManager.java:85)
+	at First.flow1(First.java:12)
+
+afterMethod(First)  Time elapsed: 0.798 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at il.co.topq.difido.model.test.TestDetails.addReportElement(TestDetails.java:55)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:412)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.flushBufferedElements(AbstractDifidoReporter.java:222)
+	at il.co.topq.difido.reporters.LocalDifidoReporter.flushBufferedElements(LocalDifidoReporter.java:119)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.afterTeardown(AbstractDifidoReporter.java:382)
+	at il.co.topq.difido.ReportManager.afterTeardown(ReportManager.java:276)
+	at il.co.topq.difido.ReportManagerHook.afterTeardown(ReportManagerHook.java:90)
+	at il.co.topq.difido.ReportManagerHook.afterInvocation(ReportManagerHook.java:128)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:566)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:545)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+afterMethod(Second)  Time elapsed: 9.629 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at il.co.topq.difido.model.test.TestDetails.addReportElement(TestDetails.java:55)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.log(AbstractDifidoReporter.java:412)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.flushBufferedElements(AbstractDifidoReporter.java:222)
+	at il.co.topq.difido.reporters.LocalDifidoReporter.flushBufferedElements(LocalDifidoReporter.java:119)
+	at il.co.topq.difido.reporters.AbstractDifidoReporter.afterTeardown(AbstractDifidoReporter.java:382)
+	at il.co.topq.difido.ReportManager.afterTeardown(ReportManager.java:276)
+	at il.co.topq.difido.ReportManagerHook.afterTeardown(ReportManagerHook.java:90)
+	at il.co.topq.difido.ReportManagerHook.afterInvocation(ReportManagerHook.java:128)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+	at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+	at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:566)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:545)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Results :
+
+Failed tests: 
+  First.flow1:12 » NullPointer
+  First.afterMethod » NullPointer
+  Second.afterMethod » NullPointer
+
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 37.886 s
+[INFO] Finished at: 2017-10-24T11:12:15+03:00
+[INFO] Final Memory: 20M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project Automation-Parallel.com: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Execute Windows batch command' marked build as failure
+Notifying upstream projects of job completion
+Finished: FAILURE

@@ -1,0 +1,24 @@
+Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4OBFeFMOzx8ebCRFsuyvnDSm4reWEDKuXaUDzvkUHO5SAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUYwAUl24cxQAAAA==[0mslave3 (label2) in workspace C:\Jenkins\workspace\MatrixProject
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/oleg^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/oleg^{commit}" # timeout=10
+Checking out Revision fb6100a51c82ef5b477b7389c077b0f0fc486f22 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fb6100a51c82ef5b477b7389c077b0f0fc486f22
+Commit message: "test without datorama"
+ > git.exe rev-list fb6100a51c82ef5b477b7389c077b0f0fc486f22 # timeout=10
+Triggering [8mha:////4En5bXhhGkO8dmvEcvyOVUj+TH3PKpOZXlWb0hb4sne5AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqcb6AIW5VW7VAAAA[0mMatrixProject » slave3
+Triggering [8mha:////4NpuXzVvidWtmnh60Ojx1/vtE2gEVnMUO+FdeArPKsNSAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqSb6AEIvFCHVAAAA[0mMatrixProject » slave4
+Triggering [8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2
+[8mha:////4En5bXhhGkO8dmvEcvyOVUj+TH3PKpOZXlWb0hb4sne5AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqcb6AIW5VW7VAAAA[0mMatrixProject » slave3 completed with result SUCCESS
+[8mha:////4NpuXzVvidWtmnh60Ojx1/vtE2gEVnMUO+FdeArPKsNSAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqSb6AEIvFCHVAAAA[0mMatrixProject » slave4 completed with result FAILURE
+[8mha:////4B81M/T9GFzE/ZqJWEWi30RtmW9xGWdnGR/lznYdbxVRAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/az8JH3fRKD2ioCi/KzU5BKggUmpObbFOYllqUb6AMSITnfVAAAA[0mMatrixProject » slave2 completed with result SUCCESS
+Project MatrixProject still waiting for [script] builds to complete
+Notifying upstream projects of job completion
+Finished: FAILURE

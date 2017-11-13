@@ -1,0 +1,46 @@
+Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4OBFeFMOzx8ebCRFsuyvnDSm4reWEDKuXaUDzvkUHO5SAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUYwAUl24cxQAAAA==[0mslave3 (label2) in workspace C:\Jenkins\workspace\script
+[script] $ python C:\Users\JACKSP~1\AppData\Local\Temp\jenkins5831780552795038758.py
+The system cannot find the file specified
+FATAL: command execution failed
+[8mha:////4Dic1nncNPZ2IUbXkfBTVBpY9Gi0POrwPmQpNvR3tHsZAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from 127.0.0.1/127.0.0.1:49339
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1655)
+		at hudson.remoting.UserResponse.retrieve(UserRequest.java:308)
+		at hudson.remoting.Channel.call(Channel.java:904)
+		at hudson.Launcher$RemoteLauncher.launch(Launcher.java:1053)
+		at hudson.Launcher$ProcStarter.start(Launcher.java:450)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:109)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:736)
+		at hudson.model.Build$BuildExecution.build(Build.java:206)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:496)
+		at hudson.model.Run.execute(Run.java:1724)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:421)
+Caused: java.io.IOException: Cannot run program "python" (in directory "C:\Jenkins\workspace\script"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at hudson.Proc$LocalProc.<init>(Proc.java:249)
+	at hudson.Proc$LocalProc.<init>(Proc.java:218)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:930)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:450)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1299)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1260)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:205)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:52)
+	at hudson.remoting.Request$2.run(Request.java:356)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1$1.run(Engine.java:98)
+	at java.lang.Thread.run(Unknown Source)
+Build step 'Execute Python script' marked build as failure
+Notifying upstream projects of job completion
+Finished: FAILURE

@@ -1,0 +1,81 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4AgzrUH83qgBf5eiYl2Wbn9wzT5UYxnA29aXu5QG9+dKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9Y2MARL4p/coAAAA=[0m33
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4OBFeFMOzx8ebCRFsuyvnDSm4reWEDKuXaUDzvkUHO5SAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUYwAUl24cxQAAAA==[0mslave3 (label2) in workspace C:\Jenkins\workspace\MatrixProject\label\slave3
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision fb6100a51c82ef5b477b7389c077b0f0fc486f22 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fb6100a51c82ef5b477b7389c077b0f0fc486f22
+Commit message: "test without datorama"
+ > git.exe rev-list fb6100a51c82ef5b477b7389c077b0f0fc486f22 # timeout=10
+[slave3] $ cmd /c call C:\Users\JACKSP~1\AppData\Local\Temp\jenkins7902747434971302567.bat
+
+C:\Jenkins\workspace\MatrixProject\label\slave3>cd AutomationParallel3TestsExcercise 
+
+C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Automation-Parallel.com 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Automation-Parallel.com ---
+[INFO] Deleting C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 17 source files to C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ Automation-Parallel.com ---
+[INFO] Surefire report directory: C:\Jenkins\workspace\MatrixProject\label\slave3\AutomationParallel3TestsExcercise\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 32300
+Only local connections are allowed.
+??? 22, 2017 3:46:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 4822
+Only local connections are allowed.
+??? 22, 2017 3:46:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 3660
+Only local connections are allowed.
+??? 22, 2017 3:46:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.271 sec - in TestSuite
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.860 s
+[INFO] Finished at: 2017-10-22T15:46:17+03:00
+[INFO] Final Memory: 19M/365M
+[INFO] ------------------------------------------------------------------------
+Notifying upstream projects of job completion
+Finished: SUCCESS

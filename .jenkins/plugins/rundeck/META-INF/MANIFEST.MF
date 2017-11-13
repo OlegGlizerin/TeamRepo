@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: greg
+Build-Jdk: 1.8.0_131
+Extension-Name: rundeck
+Specification-Title: Jenkins plugin for Rundeck integration : trigger,
+  notifier and option provider.
+Implementation-Title: rundeck
+Implementation-Version: 3.6.2
+Plugin-Class: org.jenkinsci.plugins.rundeck.RundeckPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: rundeck
+Long-Name: Jenkins Rundeck plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/RunDeck+Plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 3.6.2
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: Vincent Behar:vbehar:,Greg Schueler:gschueler:greg@
+ simplifyops.com
+

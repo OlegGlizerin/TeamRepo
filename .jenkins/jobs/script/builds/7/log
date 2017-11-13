@@ -1,0 +1,6 @@
+Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4OBFeFMOzx8ebCRFsuyvnDSm4reWEDKuXaUDzvkUHO5SAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUYwAUl24cxQAAAA==[0mslave3 (label2) in workspace C:\Jenkins\workspace\script
+[script] $ cmd.exe /C "C:\Users\JackSparrow\AppData\Local\Programs\Python\Python36-32\python.exe C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda4450619261381550516.py && exit %%ERRORLEVEL%%"
+hello world
+Notifying upstream projects of job completion
+Finished: SUCCESS

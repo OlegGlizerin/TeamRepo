@@ -1,0 +1,153 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4DWVe7OfYFvOy63TZq62R6Tadlov0JZa/aoMCRe1SBI2AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9UzMATe0Z28oAAAA=[0m56
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4EPva0O8U8cMmchepU37C/76sIwqX644G//d/BaMK+soAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace C:\Jenkins\.jenkins\workspace\label\slave1
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 9d675b37320e6eacc687b10556275eb434075e68 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 9d675b37320e6eacc687b10556275eb434075e68
+Commit message: "fixed to difido to be shared variable to all tests"
+ > git.exe rev-list 2c44e9a7263ac2c810744b9a6cc44e7f34729cf7 # timeout=10
+[slave1] $ cmd.exe /C "c:\Python27\python.exe C:\Users\User\AppData\Local\Temp\shiningpanda8576907228715640559.py && exit %%ERRORLEVEL%%"
+[slave1] $ cmd /c call C:\Users\User\AppData\Local\Temp\jenkins9153134492144469665.bat
+
+C:\Jenkins\.jenkins\workspace\label\slave1>cd AutomationParallel3TestsExcercise 
+
+C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise>mvn clean test 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Automation-Parallel.com 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Automation-Parallel.com ---
+[INFO] Deleting C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 15 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Automation-Parallel.com ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Automation-Parallel.com ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ Automation-Parallel.com ---
+[INFO] Surefire report directory: C:\Jenkins\.jenkins\workspace\label\slave1\AutomationParallel3TestsExcercise\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+11:01:17: Test init. Thread ID: 11
+11:01:17: Test init. Thread ID: 12
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 23040
+Only local connections are allowed.
+Oct 24, 2017 11:01:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 24, 2017 11:01:26 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:26 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeExecution
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832086767,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/machines/0"}
+Oct 24, 2017 11:01:26 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:26 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832086887,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+Oct 24, 2017 11:01:26 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:26 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832086920,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+Oct 24, 2017 11:01:26 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:26 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832086973,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+11:01:26: ------------------------------------------------------------------------
+11:01:26: [TEST START]: flow2
+11:01:26: ------------------------------------------------------------------------
+Oct 24, 2017 11:01:27 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:27 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832087180,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+11:01:27: test flow2 STARTED.Thread ID:12
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 7999
+Only local connections are allowed.
+Oct 24, 2017 11:01:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 24, 2017 11:01:40 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:40 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeExecution
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832100445,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/machines/0"}
+Oct 24, 2017 11:01:40 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:40 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832100507,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+Oct 24, 2017 11:01:40 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:40 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832100537,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+Oct 24, 2017 11:01:40 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:40 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832100731,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+11:01:40: test flow1 STARTED.Thread ID:11
+Oct 24, 2017 11:01:44 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:44 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832104802,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+11:01:44: test flow2 FINISHED.Thread ID:12
+Oct 24, 2017 11:01:44 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Oct 24, 2017 11:01:44 AM il.co.topq.difido.reporters.RemoteDifidoReporter writeTestDetails
+WARNING: Failed updating test details to remote server due to Request was not successful. Response is: 500.
+ Response body: {"timestamp":1508832104856,"status":500,"error":"Internal Server Error","exception":"java.lang.NullPointerException","message":"No message available","path":"/api/executions/28/details"}
+Oct 24, 2017 11:01:44 AM il.co.topq.difido.reporters.RemoteDifidoReporter checkIfNeedsToDisable
+WARNING: Communication to server has failed more then 10. Disabling report reporter
+11:01:44: ------------------------------------------------------------------------
+11:01:44: [TEST END]: flow2
+11:01:44: duration: 18 seconds
+11:01:44: status: success
+11:01:44: ------------------------------------------------------------------------
+11:01:54: test flow1 FINISHED.Thread ID:11
+Oct 24, 2017 11:01:55 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+WARNING: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+Failed to close execution with id 28
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.685 sec - in TestSuite
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 54.276 s
+[INFO] Finished at: 2017-10-24T11:01:55+03:00
+[INFO] Final Memory: 17M/130M
+[INFO] ------------------------------------------------------------------------
+Notifying upstream projects of job completion
+Finished: SUCCESS

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hao
+Build-Jdk: 1.8.0_66
+Extension-Name: global-post-script
+Implementation-Title: global-post-script
+Implementation-Version: 1.1.3
+Plugin-Class: com.orctom.jenkins.plugin.globalpostscript.GlobalPostScr
+ iptPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: global-post-script
+Long-Name: Global Post Script Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Global+Post+Script+Pl
+ ugin
+Plugin-Version: 1.1.3
+Hudson-Version: 1.565.3
+Jenkins-Version: 1.565.3
+Plugin-Developers: Hao CHEN:orctom:orctom@gmail.com
+

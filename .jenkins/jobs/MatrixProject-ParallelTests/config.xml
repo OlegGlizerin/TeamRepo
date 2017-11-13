@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-project plugin="matrix-project@1.12">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>test_param</name>
+          <description></description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>number_of_slaves</name>
+          <description></description>
+          <defaultValue>3</defaultValue>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <hudson.plugins.throttleconcurrents.ThrottleJobProperty plugin="throttle-concurrents@2.0.1">
+      <maxConcurrentPerNode>3</maxConcurrentPerNode>
+      <maxConcurrentTotal>3</maxConcurrentTotal>
+      <categories class="java.util.concurrent.CopyOnWriteArrayList"/>
+      <throttleEnabled>false</throttleEnabled>
+      <throttleOption>project</throttleOption>
+      <limitOneJobWithMatchingParams>false</limitOneJobWithMatchingParams>
+      <matrixOptions>
+        <throttleMatrixBuilds>false</throttleMatrixBuilds>
+        <throttleMatrixConfigurations>false</throttleMatrixConfigurations>
+      </matrixOptions>
+      <paramsToUseForLimit></paramsToUseForLimit>
+    </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.6.0">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/OlegGlizerin/TeamRepo.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/oleg</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>true</concurrentBuild>
+  <customWorkspace>\.jenkins\workspace</customWorkspace>
+  <axes>
+    <hudson.matrix.LabelAxis>
+      <name>label</name>
+      <values>
+        <string>slave1</string>
+        <string>slave2</string>
+        <string>slave3</string>
+      </values>
+    </hudson.matrix.LabelAxis>
+  </axes>
+  <builders>
+    <jenkins.plugins.shiningpanda.builders.CustomPythonBuilder plugin="shiningpanda@0.23">
+      <home>c:/Python27</home>
+      <nature>python</nature>
+      <command>import xml.etree.ElementTree as ET
+import os
+import math
+Xmlfilepath = &quot;AutomationParallel3TestsExcercise\\src\\main\\resources\\methods-test-testng.xml&quot;
+
+def addDTD(pathToXml) :
+        f = open(pathToXml,&quot;w&quot;)
+        f.write(&apos;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&apos;)
+
+def getTreeXml(pathToXml) :
+	with open(pathToXml,&quot;rb&quot;) as f :
+		tree = ET.parse(f)
+	return tree
+	
+def getNumOfThreadsFromXml() :
+	root = getTreeXml(Xmlfilepath).getroot()
+	suiteAttributes = root.attrib
+	return suiteAttributes[&apos;thread-count&apos;]
+
+def getIsSanityTest():
+	return os.environ[&quot;test_param&quot;]
+	
+def getNumOfSlaves() :
+	return os.environ[&quot;number_of_slaves&quot;]
+
+def getSlaveNodeNum():
+	return os.environ[&quot;machine_slave_num&quot;]
+	
+def configNewXmlByMachine() :
+	numOfSlaves = int(getNumOfSlaves())
+	slaveNodeNum = int(getSlaveNodeNum())
+	numOfThreads = int(getNumOfThreadsFromXml())
+	xmlTree = getTreeXml(Xmlfilepath)
+        addDTD(Xmlfilepath)
+	testParam = getIsSanityTest()
+	if testParam:
+		#configXmlToSanityTesting()
+                configXmlToRegressionTesting(numOfSlaves,numOfThreads,xmlTree,slaveNodeNum)
+	else :
+		configXmlToRegressionTesting(numOfSlaves,numOfThreads,xmlTree,slaveNodeNum)
+	
+
+def configXmlToRegressionTesting(numberOfSlaves,numberOfThreads,xmlTree,slaveNodeNum):
+	numOfTestsToRunPerMachine = math.ceil(float(numberOfThreads) / numberOfSlaves)
+	root = xmlTree.getroot()
+	#The top index is defined by the number of test for each machine * the machine number 
+	#so if there are 2 machines machine 1 will run tests 1,2 and machine 2 will run tests 3,4  
+	topIndexForTest = numOfTestsToRunPerMachine * slaveNodeNum
+	bottomIndexForTest = topIndexForTest - numOfTestsToRunPerMachine + 1
+	for i,test in enumerate(root.findall(&apos;test&apos;),start = 1) :
+		if i &lt; bottomIndexForTest or i &gt; topIndexForTest :
+			root.remove(test)
+	root.set(&apos;thread-count&apos;,str(int(numOfTestsToRunPerMachine)))
+	xmlTree.write(Xmlfilepath)
+	
+configNewXmlByMachine()
+		
+	</command>
+      <ignoreExitCode>false</ignoreExitCode>
+    </jenkins.plugins.shiningpanda.builders.CustomPythonBuilder>
+    <hudson.tasks.BatchFile>
+      <command>cd AutomationParallel3TestsExcercise&#xd;
+mvn clean test</command>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+  <executionStrategy class="hudson.matrix.DefaultMatrixExecutionStrategyImpl">
+    <runSequentially>false</runSequentially>
+  </executionStrategy>
+</matrix-project>

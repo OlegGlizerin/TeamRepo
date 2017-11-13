@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-BranchIndexing plugin="branch-api@2.0.14">
+  <actions/>
+  <result>
+    <name>ABORTED</name>
+    <ordinal>4</ordinal>
+    <color>ABORTED</color>
+    <completeBuild>false</completeBuild>
+  </result>
+  <durations>
+    <long>37813</long>
+  </durations>
+  <timestamp>1508500063915</timestamp>
+  <duration>37813</duration>
+</jenkins.branch.MultiBranchProject_-BranchIndexing>

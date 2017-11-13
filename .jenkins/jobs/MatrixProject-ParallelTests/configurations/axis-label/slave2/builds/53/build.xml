@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-run plugin="matrix-project@1.12">
+  <actions>
+    <hudson.matrix.MatrixChildParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+    </hudson.matrix.MatrixChildParametersAction>
+    <hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+      <parentId>MatrixProject#53</parentId>
+    </hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>MatrixProject</upstreamProject>
+            <upstreamUrl>job/MatrixProject/</upstreamUrl>
+            <upstreamBuild>53</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.6.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/oleg</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.5.0">
+              <sha1>2c44e9a7263ac2c810744b9a6cc44e7f34729cf7</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/oleg</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>53</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/OlegGlizerin/TeamRepo.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.6.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/oleg</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>C:\Jenkins\.jenkins\workspace\label\slave2</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>196</queueId>
+  <timestamp>1508830694489</timestamp>
+  <startTime>1508830724430</startTime>
+  <result>FAILURE</result>
+  <duration>8305</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave2</builtOn>
+  <workspace>C:\Jenkins\.jenkins\workspace\label\slave2</workspace>
+  <hudsonVersion>2.85</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.6.0">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>olegglizerin</string>
+  </culprits>
+</matrix-run>

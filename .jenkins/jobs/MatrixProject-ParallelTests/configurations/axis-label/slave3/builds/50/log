@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4N+xKAmskkIjiAKi7Ga0bQ6psYNpIm20xSKMddamLXXhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3fRKD2ioCi/KzU5BJ9ACRKKtTIAAAA[0mMatrixProject" build number [8mha:////4C8XskA9R/inelZt3QVavstHiEq+0+HFu1HQAFazCrbQAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3fRKD2ioCi/KzU5BJ9UwMAeEh6MsoAAAA=[0m50
+originally caused by:
+ Started by user [8mha:////4BZv/RbSRYtMZa6Gy4V7aSsv1Lgf4frwfCHza6l7zHyjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4OBFeFMOzx8ebCRFsuyvnDSm4reWEDKuXaUDzvkUHO5SAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUYwAUl24cxQAAAA==[0mslave3 (label2) in workspace C:\Jenkins\.jenkins\workspace\label\slave3
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/OlegGlizerin/TeamRepo.git # timeout=10
+Fetching upstream changes from https://github.com/OlegGlizerin/TeamRepo.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/OlegGlizerin/TeamRepo.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision fb6100a51c82ef5b477b7389c077b0f0fc486f22 (refs/remotes/origin/oleg)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f fb6100a51c82ef5b477b7389c077b0f0fc486f22
+Commit message: "test without datorama"
+ > git.exe rev-list fb6100a51c82ef5b477b7389c077b0f0fc486f22 # timeout=10
+[slave3] $ cmd.exe /C "c:\Python27\python.exe C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda707125206225859979.py && exit %%ERRORLEVEL%%"
+Traceback (most recent call last):
+  File "C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda707125206225859979.py", line 50, in <module>
+    configNewXmlByMachine()
+  File "C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda707125206225859979.py", line 32, in configNewXmlByMachine
+    configXmlToRegressionTesting(numOfSlaves,numOfThreads,xmlTree)
+  File "C:\Users\JACKSP~1\AppData\Local\Temp\shiningpanda707125206225859979.py", line 42, in configXmlToRegressionTesting
+    topIndexForTest = numOfTestsToRunPerMachine * slaveNodeNum
+NameError: global name 'slaveNodeNum' is not defined
+Build step 'Custom Python Builder' marked build as failure
+Notifying upstream projects of job completion
+Finished: FAILURE

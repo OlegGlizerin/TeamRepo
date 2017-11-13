@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='elastic-axis' version='1.2'>
+  <l:dependency name='elastic-axis' groupId='org.jenkins-ci.plugins' artifactId='elastic-axis' version='1.2' url='http://wiki.jenkins-ci.org/display/JENKINS/Elastic+Axis'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>
